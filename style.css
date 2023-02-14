@@ -1,0 +1,123 @@
+body,
+html { min-height: 100%;}
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, monospace, serif;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bold;
+    background-image: url("wallpaperflare.com_wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.con {
+    display: grid;
+    grid-gap: 10px;
+    grid-auto-rows: minmax(50px, auto);
+    grid-auto-columns: minmax(50px, auto);
+}
+
+header {
+    color: black;
+    grid-column: span 12;
+    display: grid;
+    background-color: burlywood;
+    align-items: center;
+    text-align: center;
+}
+
+header>div:nth-child(5) {
+    grid-column: 12;
+}
+
+aside {
+    grid-column: span 2;
+    background-color: brown;
+    text-align: center;
+    justify-content: center;
+    color: white;
+    font-size: 10pt;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+aside a {
+    color: white;
+    margin-bottom: 1em;
+    margin: 1em;
+}
+
+main {
+    grid-column: span 10;
+    background-color: darksalmon;
+    line-height: 2.5em;
+}
+
+footer {
+    grid-column: span 12;
+    background-color: burlywood;
+}
+
+.efootball {
+    width: 600;
+    height: 300px;
+}
+.margin {
+    display: flex;
+}
+
+.content {
+    margin: 1em;
+}
+
+header div a {
+    color: black;
+    text-decoration: none;
+    }
+a {
+    color: brown; 
+    text-decoration: none;
+}
+a:hover {opacity: 0.6}
+
+.btnmain {
+    background-color: brown;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.btnmain:hover {opacity: 0.6}
+
+.btnimg {
+    margin: none;
+    border: none;
+    background: none;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+.btnimg:hover {opacity: 0.6}
+
+.btnheader {
+    background: none;
+    border: none;
+    margin: none;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.3s;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Times New Roman', Times, monospace, serif;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font-weight: bold;
+}
+.btnheader:hover {background-color: brown;}
